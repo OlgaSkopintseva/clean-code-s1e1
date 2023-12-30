@@ -48,11 +48,11 @@
 }
 
 .incomplete-tasks-section__li, .incomplete-tasks-section__li_mode, .completed-tasks-section__li, .section-name {
-  list-style:none;
+  list-style: none;
 }
 
 #new-task, #task, .add-button, .edit, .delete{
-  outline:none;
+  outline: none;
 }
 
 .add-button, .edit, .delete {
@@ -154,14 +154,14 @@
 
 /* Edit Task */
 ul li input[type="text"] {
-  display:none
+  display: none
 }
 
 .incomplete-tasks-section__li_mode .task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .incomplete-tasks-section__li_mode .label {
-  display:none;
+  display: none;
 }
