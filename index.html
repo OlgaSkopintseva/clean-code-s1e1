@@ -21,7 +21,7 @@
       </a>
     </div>
     <div class="main-section">
-      <div id="new-task-section">
+      <section id="new-task-section">
         <label class="label_new-task" for="new-task">Add Item</label>
         <div class="new-task-section__row-wrapper">
           <input
@@ -31,7 +31,8 @@
           >
           <button class="add-button">Add</button>
         </div>
-      </div>
+      </section>
+      <section>
       <h2 class="section-name">Todo</h2>
       <ul id="incomplete-tasks-section">
         <li class="incomplete-tasks-section__li" id="li">
@@ -62,7 +63,9 @@
           </button>
         </li>
       </ul>
-        <h2 class="section-name">Completed</h2>
+    </section>
+    <section>
+      <h2 class="section-name">Completed</h2>
         <ul id="completed-tasks-section">
           <li class="completed-tasks-section__li" id="li">
             <input class="input__checkbox" type="checkbox" checked>
@@ -78,6 +81,7 @@
             </button>
           </li>
         </ul>
+    </section>
     </div>
     <script src="app.js"></script>
   </body>
